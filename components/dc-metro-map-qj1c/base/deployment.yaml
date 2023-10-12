@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-qj1c
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-qj1c@sha256:908cb8d14531b515650d734562e20ed31ac571be05edf101e02d5f458e4ff425
         name: my-nodejs
         ports:
         - containerPort: 3001
