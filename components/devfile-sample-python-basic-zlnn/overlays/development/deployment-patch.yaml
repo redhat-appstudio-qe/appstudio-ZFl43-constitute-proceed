@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-zlnn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/devfile-sample-python-basic-zlnn@sha256:a8e4a86f9f795798cf4f3f2bfaf173b0d4d9c453e0b4b29ed164904998508b0a
+        name: my-python
+        resources: {}
+status: {}
